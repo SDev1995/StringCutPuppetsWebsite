@@ -294,33 +294,25 @@ h2 {
     /* Keep your existing mobile rules below this. */
 }
 @media (max-width: 760px) {
-    .site-nav {
-        display: none;
+    .site-header {
+        min-height: 64px;
     }
 
     .nav-toggle {
         display: block;
-        position: relative;
-        z-index: 30;
+        color: var(--text);
+        background: transparent;
+        border: 0;
+        font-size: 1.5rem;
     }
 
-    .site-nav.is-open {
-        display: flex;
+    .gig-card {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
     }
-}
-.page-main {
-    padding-top: 72px;
-}
 
-.page-hero {
-    padding: 8rem 5% 4rem;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-}
-
-    .page-hero h1 {
-        margin-bottom: 1rem;
-        font-size: clamp(4rem, 10vw, 8rem);
+    .site-footer {
+        flex-direction: column;
     }
 
     .page-hero p:last-child {
