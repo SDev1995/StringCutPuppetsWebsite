@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2026-08-15",
+        "venue": "The Cellar",
+        "location": "Galway",
+        "ticketUrl": ""
+    },
+    {
+        "date": "2026-08-29",
+        "venue": "Liquid",
+        "location": "Belfast",
+        "ticketUrl": ""
+    },
+    {
+        "date": "2026-09-01",
+        "venue": "Bennigans",
+        "location": "Derry",
+        "ticketUrl": ""
+    }
+]
