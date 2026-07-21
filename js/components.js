@@ -24,6 +24,8 @@ async function initialiseComponents() {
         loadComponent("site-footer", "components/footer.html")
     ]);
 
+    initialiseMobileNavigation();
+
     const yearElement = document.getElementById("current-year");
 
     if (yearElement) {
@@ -32,3 +34,30 @@ async function initialiseComponents() {
 }
 
 document.addEventListener("DOMContentLoaded", initialiseComponents);
+
+function initialiseMobileNavigation() {
+    const navToggle = document.querySelector(".nav-toggle");
+    const siteNav = document.querySelector(".site-nav");
+
+    if (!navToggle || !siteNav) {
+        return;
+    }
+
+    navToggle.addEventListener("click", () => {
+        const isOpen = siteNav.classList.toggle("is-open");
+
+        navToggle.setAttribute("aria-expanded", String(isOpen));
+        navToggle.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation" : "Open navigation"
+        );
+    });
+
+    siteNav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+            siteNav.classList.remove("is-open");
+            navToggle.setAttribute("aria-expanded", "false");
+            navToggle.setAttribute("aria-label", "Open navigation");
+        });
+    });
+}
