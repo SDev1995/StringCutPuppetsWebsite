@@ -5,16 +5,28 @@
     "location": "Galway",
     "ticketUrl": "https://fixr.co/event/string-cut-puppets-infared-bold-boy-modern-grief-t-tickets-577771462"
   },
-    {
-        "date": "2026-08-29",
-        "venue": "Liquid",
-        "location": "Belfast",
-        "ticketUrl": ""
-    },
-    {
-        "date": "2026-09-01",
-        "venue": "Bennigans",
-        "location": "Derry",
-        "ticketUrl": ""
-    }
+  {
+    "date": "2026-08-29",
+    "venue": "Liquid",
+    "location": "Belfast",
+    "ticketUrl": ""
+  },
+  {
+    "date": "2026-09-01",
+    "venue": "Bennigans",
+    "location": "Derry",
+    "ticketUrl": ""
+  },
+  {
+    "date": "2026-09-18",
+    "venue": "Bennigans - Battle of the Bands",
+    "location": "Derry",
+    "ticketUrl": ""
+  },
+  {
+    "date": "2026-12-10",
+    "venue": "Sandinos",
+    "location": "Derry",
+    "ticketUrl": ""
+  }
 ]
