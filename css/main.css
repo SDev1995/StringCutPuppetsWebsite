@@ -733,3 +733,46 @@ h2 {
 
 
 }
+
+/* Contact */
+
+.contact-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.contact-card {
+    padding: 2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+}
+
+    .contact-card h3 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .contact-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+    }
+
+    .contact-card a {
+        color: var(--muted);
+        text-decoration: none;
+        transition: .2s;
+    }
+
+        .contact-card a:hover {
+            color: var(--text);
+        }
+
+@media(max-width:760px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
