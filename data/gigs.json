@@ -11,10 +11,16 @@
     "location": "Belfast",
     "ticketUrl": ""
   },
- 
+
   {
     "date": "2026-09-18",
     "venue": "Bennigans - Battle of the Bands",
+    "location": "Derry",
+    "ticketUrl": ""
+  },
+  {
+    "date": "2026-10-16",
+    "venue": "Bennigans - Battle of the Bands Final",
     "location": "Derry",
     "ticketUrl": ""
   },
